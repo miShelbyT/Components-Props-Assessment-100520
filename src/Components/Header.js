@@ -1,8 +1,17 @@
 import React from "react";
+import NotesContainer from '../Containers/NotesContainer'
 
 class Header extends React.Component {
   render() {
-    return <h1>{/*text goes here*/}</h1>;
+    // console.log(this.props)
+    // let word = this.props.text
+    return (
+      <div>
+        <h1>{this.props.text}</h1>
+        
+      </div>
+
+    );
   }
 }
 
