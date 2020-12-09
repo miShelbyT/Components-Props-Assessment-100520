@@ -11,8 +11,8 @@ class NotesContainer extends React.Component {
 
     notes = () => {
       // console.log(this.apiResponse)
-      return this.apiResponse().map(function(note){
-        { return <Note note={note} /> }
+      return this.apiResponse().map(function(noteObj){
+        return <Note note={noteObj} />
     })
     }
 

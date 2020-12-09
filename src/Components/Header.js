@@ -1,5 +1,4 @@
 import React from "react";
-import NotesContainer from '../Containers/NotesContainer'
 
 class Header extends React.Component {
   render() {
